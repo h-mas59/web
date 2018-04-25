@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form action="form.html" method="POST">
+        <div>
+            <label for="firstname">Prénom</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+        </div>
+        <div>
+            <label for="lastname">Nom</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Doe" value="">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text" name="email" id="email" placeholder="example.xyz.com">
+        </div>
+        <div>
+            <label for="birthdate">Date de naissance</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Raconte-moi ta vie..."></textarea>
+        </div>
+        <div>
+            <label>
+                <input type="radio"> Madame
+            </label>
+            <label>
+                <input type="radio"> Monsieur
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="cgv" checked>CGV
+            </label>
+            <label>
+                <input type="checkbox" name="newsletter">Inscription newsletter
+            </label>
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="countries">Pays</label>
+        <select name="coutries" id="countries">
+            <option value="1">France</option>
+            <option value="2">Espagne</option>
+            <option value="3">Portugal</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="submit" value="Envoyer">
+        <button type="submit">Envoyer</button>
+    </div>
+    </form>
+</body>
+</html>
