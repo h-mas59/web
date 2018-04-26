@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+div {
+    display: inline-block;
+    text-align: center;  
+    
+}
+
+h2 {
+    color: white;
+    margin: 0px;
+    padding: 7px;
+}
+.boxblue {
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius:10px;
+}
+.boxred {
+    margin: 10px;
+    border: 1px solid red;
+    border-radius:10px;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+p {
+    padding: 15px;
+}
+
+

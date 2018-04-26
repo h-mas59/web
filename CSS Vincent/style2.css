@@ -1,0 +1,53 @@
+body {
+    font:16px Tahoma, Arial, sans-serif;
+}
+
+.box {
+    border: 1px solid #F0F0F0;
+    margin-bottom: 20px;
+   
+    transition: box-shadow 0.4s ease;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 5px #CCCCCC;
+}
+
+.box-red {
+    border-color: red;
+}
+
+.box-red .box-title {
+    background-color: red;
+    color: white;
+}
+
+.box-blue {
+    border-color: blue;
+}
+
+.box-blue .box-title {
+    background-color: blue;
+    color: white;
+}
+
+.box-black {
+    border-color: black;
+}
+
+.box-black .box-title {
+    background-color: black;
+    color: white;
+}
+    
+
+.box-title {
+    margin: 0;
+    border-bottom: inherit;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.box-content {
+    padding: 10px;
+}
